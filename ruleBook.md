@@ -23,7 +23,7 @@ The objective of this game is to reduce the opponent's hero's health points to z
 ### Turn Structure
 Each turn in Frontline is divided into several parts, in order:
 
-1. **Turn Begins**: Player gain 1 max-mana, and their mana is filled to the same amount as max-mana. Player draw a card to hand from their deck.
+1. **Turn Begins**: Player gain 1 max-mana, and their mana is filled to the same amount as max-mana. Player also get 2 move points(1 if it is the very first turn). Player draw a card to hand from their deck.
 2. **Action**: Here players can play cards from their hand onto the board, move cards on the board, or engage in battles with their opponent's cards. 
 3. **Turn Ends**: Players end their turn. The opponent starts their turn. *Exhaustions* are removed.
 
@@ -31,7 +31,7 @@ Each turn in Frontline is divided into several parts, in order:
 - **Deploying Cards**: Players can play their card by paying the relative cost and choose a legal tile on the field. It is done by clicking the card in the hand and then clicking the tile on the field where you want to play the card
 
 ### Move & Battle (Action)
-- **Move**: Players can move their owned minions or heroes to an adjacent tile by doing this: click the minion/hero that you want to move and then click the destination tile.
+- **Move**: Players can move their owned minions or heroes to an adjacent tile by doing this: click the minion/hero that you want to move and then click the destination tile. Moving costs 1 move point. If the move point is not enough, the player can still perform move, but it cost 1 mana instead. Players can switch positions of their two adjacent minions, which is considered as 2 moves.
 - **Battle**: Cards engage in battles by clicking the minion/hero as the attacker and an adjacent opponent minion/hero as the target.
 - **Damage Calculation**: Damage is calculated based on the attacking and defending cards' attributes. Cards lose health points equal to the attack value of the opposing card.
 - **Exhaustion**: Every time a minion card makes an action, it becomes *exhausted*, meaning that it cannot make action anymore this turn. When a minion card is played, it is initialized as *exhausted*.  
