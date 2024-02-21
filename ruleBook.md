@@ -31,6 +31,7 @@ Each turn in Frontline is divided into several parts, in order:
 3. **Turn Ends**: Players end their turn. The opponent starts their turn. *Exhaustions* are removed.
 
 Each player have 80 seconds to perform their actions each turn. If a player is not able to end turn within that time, the turn automatically ends.
+Total 3 times of auto end turn makes the player lose the game.
 
 ### Playing Cards
 - **Deploying Cards**: Players can play their card by paying the relative cost and choose a legal tile on the field. It is done by clicking the card in the hand and then clicking the tile on the field where you want to play the card
