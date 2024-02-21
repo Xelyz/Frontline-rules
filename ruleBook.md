@@ -15,8 +15,8 @@ CardMonster is a turn-based strategic card game where players use a variety of c
 2. **Cards**: Starting Player start the game with 4 cards in hand and the other Player starts with 5, drawn from their deck.
 3. **Cost**: Players begin with 0 mana and 0 max-mana. 
 
-### Winning the Game
-The objective of this game is to reduce the opponent's hero's health points to zero. A player may win by achieving that.  
+## Winning the Game
+The objective of this game is to reduce the opponent's hero's health points to or below zero. A player may win by achieving that.  
 
 ## Game Play
 
@@ -29,6 +29,8 @@ Each turn in Frontline is divided into several parts, in order:
 - **Battle**: Cards engage in battles by clicking the minion/hero as the attacker and an adjacent opponent minion/hero as the target.
 - **Switch Places**: Players can switch positions of their two adjacent minions, which is considered as 2 moves.
 3. **Turn Ends**: Players end their turn. The opponent starts their turn. *Exhaustions* are removed.
+
+Each player have 80 seconds to perform their actions each turn. If a player is not able to end turn within that time, the turn automatically ends.
 
 ### Playing Cards
 - **Deploying Cards**: Players can play their card by paying the relative cost and choose a legal tile on the field. It is done by clicking the card in the hand and then clicking the tile on the field where you want to play the card
